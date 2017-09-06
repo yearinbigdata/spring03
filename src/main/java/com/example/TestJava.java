@@ -1,4 +1,4 @@
-package spring03;
+package com.example;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
