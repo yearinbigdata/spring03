@@ -1,5 +1,7 @@
 package com.example.spring
 
+import com.example.spring.Dept
+
 object DeptExampleScala {
 	def main(args: Array[String]): Unit = {
 		
