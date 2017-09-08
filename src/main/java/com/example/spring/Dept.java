@@ -10,21 +10,24 @@ import lombok.ToString;
 @Getter
 @Setter
 @AllArgsConstructor				//필드기반 생성자 만들어줌
-@NoArgsConstructor
 public class Dept {
 
 	int deptno;
 	String dname;
 	String loc;
 	
+	public Dept(){
+		System.out.println("###");
+		System.out.println("### Dept()...");
+		System.out.println("###");
+	}
+	
 	public void print() {
-	    System.out.println("***" + toString());
+	    System.out.println("###1" + toString());
 	  }
 
 	  public void print2() {
-	    System.out.println
-
-	    ("***222" + toString());
+	    System.out.println("###2" + toString());
 	  }
 	
 
